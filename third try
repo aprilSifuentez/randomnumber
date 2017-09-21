@@ -1,0 +1,30 @@
+<span id="true-random-integer-generator-title">True Random Number Generator</span>
+<span id="true-random-integer-generator-min-span">
+		<label for="true-random-integer-generator-min">Min:</label>
+		<input type="number" name="true-random-integer-generator-min" id="true-random-integer-generator-min" maxlength="9" value="1" onkeypress="return integerJsInputControl(event);">
+	</span>
+  <span id="true-random-integer-generator-max-span">
+		<label for="true-random-integer-generator-max">Max:</label>
+		<input type="number" name="true-random-integer-generator-max" id="true-random-integer-generator-max" maxlength="9" value="100" onkeypress="return integerJsInputControl(event);">
+	</span>
+  <span id="true-random-integer-generator-max-button-span">
+		<input type="button" value="Generate" name="true-random-integer-generator-button" id="true-random-integer-generator-button" onclick="getTrueRandomInteger(document.getElementById('true-random-integer-generator-min').value, document.getElementById('true-random-integer-generator-max').value);">
+	</span>
+  <span id="true-random-integer-generator-credits">…<a href="https://www.random.org/" target="_blank">RANDOM.ORG</a></span>
+  <div id="true-random-integer-generator">
+	<span id="true-random-integer-generator-title">True Random Number Generator</span>
+	<span id="true-random-integer-generator-min-span">
+		<label for="true-random-integer-generator-min">Min:</label>
+		<input type="number" name="true-random-integer-generator-min" id="true-random-integer-generator-min" maxlength="9" value="1" onkeypress="return integerJsInputControl(event);">
+	</span>
+	<span id="true-random-integer-generator-max-span">
+		<label for="true-random-integer-generator-max">Max:</label>
+		<input type="number" name="true-random-integer-generator-max" id="true-random-integer-generator-max" maxlength="9" value="100" onkeypress="return integerJsInputControl(event);">
+	</span>
+	<span id="true-random-integer-generator-max-button-span">
+		<input type="button" value="Generate" name="true-random-integer-generator-button" id="true-random-integer-generator-button" onclick="getTrueRandomInteger(document.getElementById('true-random-integer-generator-min').value, document.getElementById('true-random-integer-generator-max').value);">
+	</span>
+	<label for="true-random-integer-generator-result">Result:</label>
+	<span id="true-random-integer-generator-result">16</span>
+	<span id="true-random-integer-generator-credits">…<a href="https://www.random.org/" target="_blank">RANDOM.ORG</a></span>
+</div>
